@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: SQL_DBT_demo_source
+    schema: SQL_DBT_demo_source
+    tables:
+      - name: squirrel_census
+
+
