@@ -5,5 +5,8 @@ sources:
     schema: SQL_DBT_demo_source
     tables:
       - name: squirrel_census
+        loaded_at_field: loaded_at
+        freshness:
+          warn_after: {count: 1200, period: day}
 
 

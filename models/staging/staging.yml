@@ -1,0 +1,9 @@
+models:
+  - name: squirrel_colour
+    columns:
+      - name: unique_squirrel_id
+        tests:
+          - is_dup:
+              column_id: Chasing
+      - name: Chasing
+        description: "{{ doc('squirrel_colour_chasing')}}"
