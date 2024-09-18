@@ -1,5 +1,6 @@
 select 
-'Unique Squirrel ID' as unique_squirrel_id,
+"Unique Squirrel ID" as unique_squirrel_id,
+"Primary Fur Color" as p_fur_color,
 Age,
 Running, 
 Chasing,
