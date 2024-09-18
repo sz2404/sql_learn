@@ -8,5 +8,10 @@ sources:
         loaded_at_field: loaded_at
         freshness:
           warn_after: {count: 1200, period: day}
+        columns:
+          - name: Unique Squirrel ID
+            quote: true 
+          - name: Primary Fur Color
+            quote: true
 
 

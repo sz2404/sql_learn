@@ -6,4 +6,4 @@ Running,
 Chasing,
 Lat_Long
 from 
-{{ source('SQL_DBT_demo_source', 'squirrel_census')}}
+{{ source('SQL_DBT_demo_source', 'squirrel_census')}} as sc
